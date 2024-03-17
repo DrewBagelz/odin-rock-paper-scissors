@@ -39,13 +39,13 @@ function playGame() {
 	for (let i = 0; i < 5; i++) {
 		const playerSelection = prompt("Choose rock, paper, or scissors:").toLowerCase();
 		const computerSelection = getComputerChoice();
-		console.log("1 ", playRound(playerSelection, computerSelection));
+		console.log("* ", playRound(playerSelection, computerSelection));
 	}
 
 	if (playerScore > computerScore) {
 		return playerScore + "-" + computerScore + ", You win!";
 	} else if (computerScore > playerScore) {
-		return computerScore + "-" + playerScore + ", Computer wins.";
+		return playerScore + "-" + computerScore + ", Computer wins.";
 	} else {
 		return playerScore + "-" + computerScore + ", This game ends in a tie.";
 	}
