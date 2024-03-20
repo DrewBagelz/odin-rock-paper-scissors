@@ -16,7 +16,7 @@ the code that I was able to do confidently on my own was the
 `if...else` statements needed to determine the winner of each round.
 However, in my struggles I was able to learn a lot of new information
 that will hopefully make things easier in the future. I learned about
-the `math.floor()` and `math.random` methods and how to use them to
+the `math.floor()` and `math.random()` methods and how to use them to
 return a random item from an `Array`. I also got a sneak peek at
 loops. Most importantly, I realized creating a `Function` does
 nothing unless the `Function` is actually called elsewhere in the
