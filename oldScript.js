@@ -1,3 +1,5 @@
+// Old script for the no-UI version of the project. Kept for reference.
+
 const choice = ["rock", "paper", "scissors"];
 
 let playerScore = 0;
@@ -30,14 +32,19 @@ function playRound(playerSelection, computerSelection) {
 	} else if (playerSelection === "scissors" && computerSelection === "paper") {
 		playerScore++;
 		return "Scissors beats paper. You win this round.";
-	} else if (playerSelection === "scissors" && computerSelection === "scissors") {
+	} else if (
+		playerSelection === "scissors" &&
+		computerSelection === "scissors"
+	) {
 		return "Both chose scissors. This round ends in a tie.";
 	}
 }
 
 function playGame() {
 	for (let i = 0; i < 5; i++) {
-		const playerSelection = prompt("Choose rock, paper, or scissors:").toLowerCase();
+		const playerSelection = prompt(
+			"Choose rock, paper, or scissors:"
+		).toLowerCase();
 		const computerSelection = getComputerChoice();
 		console.log("* ", playRound(playerSelection, computerSelection));
 	}
