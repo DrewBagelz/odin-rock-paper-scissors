@@ -23,3 +23,17 @@ nothing unless the `Function` is actually called elsewhere in the
 code or console, which probably should have been obvious, but
 figuring that out got rid of a lot of confusion about what was going
 wrong and why.
+
+## UI Update
+
+I was much better prepared for this leg of the project and didn't
+need to look up much of anything to complete it. The only thing
+that tripped me up was the "Play Again?" button, but an easy fix
+spontaneously came to me while eating dinner one night. I'm not sure
+if my solution is the most efficient way to go about it, but it
+works, and the project wasn't even asking me to do it, I just
+wanted to see if I could at this stage. I could add some CSS to
+pretty it up, but moving on to the next JavaScript lessons feels
+like a better use of my time. I'm keeping the old console-only
+script here for posterity. It was the first thing I ever coded and I
+didn't want to lose it in a merge.
